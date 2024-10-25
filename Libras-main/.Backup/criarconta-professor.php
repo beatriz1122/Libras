@@ -38,7 +38,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biblioteca Lino de Mattos - Criar conta</title>
+    <title>Criar conta</title>
     <link rel="icon" type="image/png" sizes="16x16" href="img\logobiblioteca.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
@@ -122,17 +122,18 @@
                 <h1><b>Cadastrar Professor</b></h1>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputUser" required placeholder="Nome Completo">
+                    <input type="numb" name="cpf" id="cpf" class="inputUser" required placeholder="Nome">
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required placeholder="Email">
                 </div>
                 <br>
                 <div class="inputBox">
                     <input type="password" name="senha" id="senha" class="inputUser" required placeholder="Senha">
                 </div>
                 <br>
-                <div class="inputBox">
-                    <input type="numb" name="cpf" id="cpf" class="inputUser" required placeholder="CPF">
-                </div>
-                <br>
+                
                 <input type="submit" name="submit" id="submit" >
         </form>
     </div>

@@ -33,6 +33,9 @@
         <li class="nav-item">
           <a class="nav-link" href="atividadep.php">ATIVIDADES</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cad-professor.php">CADASTRAR</a>
+        </li>
       </ul>
     </div>
   </nav>
